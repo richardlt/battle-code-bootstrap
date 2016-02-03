@@ -1,0 +1,19 @@
+{
+  "name": "battle-code-bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardlt/battle-code-bootstrap.git"
+  },
+  "author": "richardlt <richard.le.terrier@gmail.com>",
+  "license": "GNU GENERAL PUBLIC LICENSE V2",
+  "bugs": {
+    "url": "https://github.com/richardlt/battle-code-bootstrap/issues"
+  },
+  "homepage": "https://github.com/richardlt/battle-code-bootstrap#readme",
+  "devDependencies": {
+    "fs": "0.0.2",
+    "optimist": "^0.6.1"
+  }
+}
