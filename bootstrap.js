@@ -26,6 +26,14 @@ module.exports = {
         return line;
     },
 
+    fileSize: function() {
+        let size = 0;
+        if (_file && 0 < _file.length) {
+            size = _file.length;
+        }
+        return size;
+    },
+
     print: function(value) {
         console.log(value)
     },
