@@ -9,3 +9,5 @@ let N = parseInt(B.readLine());
 for (let i = 0; i < N; i++) {
     B.print(B.readLine());
 }
+
+B.print(B.arg.argone);

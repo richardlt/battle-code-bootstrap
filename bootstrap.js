@@ -3,7 +3,7 @@
 const fs = require('fs'),
     Optimist = require('optimist');
 
-const arg = Optimist.argv;
+const argv = Optimist.argv;
 
 let _file = [];
 let _index = 0;
@@ -32,6 +32,8 @@ module.exports = {
 
     printErr: function(value) {
         console.error(value);
-    }
+    },
+
+    arg: argv
 
 };
